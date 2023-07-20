@@ -56,7 +56,7 @@ export default function HeroSlider2(): JSX.Element {
                                             </h2>
                                             <p className="sub-heading mt-29 mb-35">
                                                 Marketplace for monster
-                                                character cllections non
+                                                character collections non
                                                 fungible token NFTs
                                             </p>
                                             <div className="flat-bt-slider flex style2">
@@ -110,7 +110,7 @@ export default function HeroSlider2(): JSX.Element {
                                             </h1>
                                             <p className="sub-heading mg-t-29 mg-bt-50">
                                                 Marketplace for monster
-                                                character cllections non
+                                                character collections non
                                                 fungible token NFTs
                                             </p>
                                             <div className="flat-bt-slider flex">
@@ -168,7 +168,7 @@ export default function HeroSlider2(): JSX.Element {
                                                 </h1>
                                                 <p className="sub-heading mg-t-29 mg-bt-44">
                                                     Marketplace for monster
-                                                    character cllections non
+                                                    character collections non
                                                     fungible token NFTs
                                                 </p>
                                                 <div className="flat-bt-slider flex style2">

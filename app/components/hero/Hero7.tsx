@@ -43,7 +43,7 @@ export default function Hero7(): JSX.Element {
 
                             <h1 className="heading">Miverse NFTs</h1>
                             <p className="sub-heading mg-t-19 mg-bt-40">
-                                Marketplace for Miverse character cllections non
+                                Marketplace for Miverse character collections non
                                 fungible token NFTs
                             </p>
                             <div className="flat-bt-slider flex style2">

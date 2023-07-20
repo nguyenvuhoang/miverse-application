@@ -57,7 +57,7 @@ export const navigation: NavigationType[] = [
     },
     {
         id: 3,
-        name: "Activity",
+        name: "Reward",
         dropdown: [
             {
                 id: 1,
@@ -92,81 +92,9 @@ export const navigation: NavigationType[] = [
             },
         ],
     },
-    {
-        id: 5,
-        name: "Pages",
-        dropdown: [
-            {
-                id: 1,
-                name: "Authors",
-                path: "/authors-1",
-            },
-            {
-                id: 2,
-                name: "Authors 2",
-                path: "/authors-2",
-            },
-            {
-                id: 3,
-                name: "Wallet Connect",
-                path: "/connect-wallet",
-            },
-            {
-                id: 4,
-                name: "Create Item",
-                path: "/create-item",
-            },
-            {
-                id: 5,
-                name: "Edit Profile",
-                path: "/edit-profile",
-            },
-            {
-                id: 6,
-                name: "Ranking",
-                path: "/ranking",
-            },
-            {
-                id: 7,
-                name: "Login",
-                path: "/login",
-            },
-            {
-                id: 8,
-                name: "Sing Up",
-                path: "/signup",
-            },
-            {
-                id: 9,
-                name: "No Result",
-                path: "/no-result",
-            },
-            {
-                id: 10,
-                name: "FAQ",
-                path: "/faq",
-            },
-            {
-                id: 11,
-                name: "404",
-                path: "/page-not-found",
-            },
-        ],
-    },
+    
     {
         id: 6,
-        name: "Contact",
-        dropdown: [
-            {
-                id: 1,
-                name: "Contact 1",
-                path: "/contact-1",
-            },
-            {
-                id: 2,
-                name: "Contact 2",
-                path: "/contact-2",
-            },
-        ],
+        name: "Contact"
     },
 ];

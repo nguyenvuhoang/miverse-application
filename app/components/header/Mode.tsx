@@ -21,9 +21,7 @@ export default function Mode(): JSX.Element {
   return (
     <>
       <div className="mode_switcher">
-        <h6>
-          Dark mode <strong>Available</strong>
-        </h6>
+        
         <a
           onClick={toggleTheme}
           className={`d-flex align-items-center ${

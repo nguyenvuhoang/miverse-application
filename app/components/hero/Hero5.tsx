@@ -17,7 +17,7 @@ export default function Hero5(): JSX.Element {
                                 NFTs
                             </h1>
                             <p className="sub-heading mg-t-7 mg-bt-39">
-                                Marketplace for Miverse character cllections non
+                                Marketplace for Miverse character collections non
                                 fungible token NFTs
                             </p>
                             <div className="flat-bt-slider style2 flex">
