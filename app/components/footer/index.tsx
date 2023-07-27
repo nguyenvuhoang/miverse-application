@@ -37,13 +37,13 @@ export default function Footer() {
                   non, fugit totam vel laboriosam vitae.
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Axies — Made By{" "}
+                  © {new Date().getFullYear()} Miverse — Made By{" "}
                   <a
-                    href="https://themeforest.net/user/ib-themes"
+                    href="https://vknight.io"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    ib-themes
+                    vKnightHub
                   </a>
                 </p>
               </div>

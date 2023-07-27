@@ -40,7 +40,7 @@ export default function ItemDetails1() {
                                     <Image
                                         height={1000}
                                         width={1000}
-                                        src="/assets/images/box-item/images-item-details.jpg"
+                                        src="/assets/images/box-item/images-item-details.webp"
                                         alt=""
                                     />
                                 </div>
@@ -75,7 +75,7 @@ export default function ItemDetails1() {
                                                     <Image
                                                         height={200}
                                                         width={200}
-                                                        src="/assets/images/avatar/avt-8.jpg"
+                                                        src="/assets/images/avatar/avt-8.webp"
                                                         alt=""
                                                     />
                                                 </div>
@@ -95,7 +95,7 @@ export default function ItemDetails1() {
                                                     <Image
                                                         height={200}
                                                         width={200}
-                                                        src="/assets/images/avatar/avt-2.jpg"
+                                                        src="/assets/images/avatar/avt-2.webp"
                                                         alt=""
                                                     />
                                                 </div>
@@ -127,7 +127,7 @@ export default function ItemDetails1() {
                                             </span>
                                             <div className="price">
                                                 <div className="price-box">
-                                                    <h5> 4.89 ETH</h5>
+                                                    <h5> 4.89 ADA</h5>
                                                     <span>= $12.246</span>
                                                 </div>
                                             </div>

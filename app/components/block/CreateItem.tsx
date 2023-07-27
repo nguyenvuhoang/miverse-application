@@ -7,19 +7,19 @@ const tabs: {
     name: string;
     icon: JSX.Element;
 }[] = [
-    {
-        name: "Fixed Price",
-        icon: <span className="icon-fl-tag" />,
-    },
-    {
-        name: "Time Auctions",
-        icon: <span className="icon-fl-clock" />,
-    },
-    {
-        name: "Open For Bids",
-        icon: <span className="icon-fl-icon-22" />,
-    },
-];
+        {
+            name: "Fixed Price",
+            icon: <span className="icon-fl-tag" />,
+        },
+        {
+            name: "Time Auctions",
+            icon: <span className="icon-fl-clock" />,
+        },
+        {
+            name: "Open For Bids",
+            icon: <span className="icon-fl-icon-22" />,
+        },
+    ];
 
 export default function CreateItem(): JSX.Element {
     const [getCurrentTab, setCurrentTab] = useState<number>(0);
@@ -87,11 +87,10 @@ export default function CreateItem(): JSX.Element {
                                                 onClick={() =>
                                                     tabHandler(index)
                                                 }
-                                                className={`tablinks ${
-                                                    index === getCurrentTab
+                                                className={`tablinks ${index === getCurrentTab
                                                         ? "active"
                                                         : ""
-                                                }`}
+                                                    }`}
                                             >
                                                 {tab.icon}
                                                 {tab.name}
@@ -107,7 +106,7 @@ export default function CreateItem(): JSX.Element {
                                                     </h4>
                                                     <input
                                                         type="text"
-                                                        placeholder="Enter price for one item (ETH)"
+                                                        placeholder="Enter price for one item (ADA)"
                                                     />
                                                     <h4 className="title-create-item">
                                                         Title
@@ -171,13 +170,13 @@ export default function CreateItem(): JSX.Element {
                                                                         style={
                                                                             !isShow
                                                                                 ? {
-                                                                                      display:
-                                                                                          "none",
-                                                                                  }
+                                                                                    display:
+                                                                                        "none",
+                                                                                }
                                                                                 : {
-                                                                                      display:
-                                                                                          "block",
-                                                                                  }
+                                                                                    display:
+                                                                                        "block",
+                                                                                }
                                                                         }
                                                                     >
                                                                         <li>
@@ -286,7 +285,7 @@ export default function CreateItem(): JSX.Element {
                                                     </h4>
                                                     <input
                                                         type="text"
-                                                        placeholder="Enter price for one item (ETH)"
+                                                        placeholder="Enter price for one item (ADA)"
                                                     />
                                                     <h4 className="title-create-item">
                                                         Minimum bid

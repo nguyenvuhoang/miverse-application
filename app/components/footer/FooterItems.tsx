@@ -11,22 +11,20 @@ interface Props {
 
 const menuItems: MenuItem[][] = [
   [
-    { href: "/authors-1", label: "Authors" },
-    { href: "/connect-wallet", label: "Collection" },
-    { href: "/edit-profile", label: "Author Profile" },
-    { href: "/create-item", label: "Create Item" },
+    { href: "/marketplace", label: "Marketplace" },
+    { href: "/collection", label: "Collection" }
   ],
   [
-    { href: "/help-center", label: "Help & Support" },
-    { href: "/live-auctions", label: "Live Auctions" },
-    { href: "/item-details-1", label: "Item Details" },
-    { href: "/activity-1", label: "Activity" },
+    { href: "/verication", label: "Verication" },
+    { href: "/mft-minting", label: "NFT minting" }
   ],
   [
-    { href: "/explore-1", label: "Explore" },
-    { href: "/contact-1", label: "Contact Us" },
-    { href: "/blog", label: "Our Blog" },
+    { href: "/our-team", label: "Our team" },
+    { href: "/our-impact", label: "Our impact" },
     { href: "/faq", label: "FAQ" },
+    { href: "/term-condition", label: "Term & conditions" },
+    { href: "/privacy-policy", label: "Privacy policy" }
+
   ],
 ];
 
@@ -41,10 +39,10 @@ export default function FooterItems({ data }: Props) {
           <div className={`widget widget-menu style-${index + 1}`}>
             <h5 className="title-widget">
               {index === 0
-                ? "My Account"
+                ? "Browser"
                 : index === 1
-                ? "Resources"
-                : "Company"}
+                ? "Creators"
+                : "About"}
             </h5>
             <ul>
               {menu.map(({ href, label }) => (

@@ -147,7 +147,7 @@ export default function ItemDetails2(): JSX.Element {
                                                 </span>
                                                 <div className="price">
                                                     <div className="price-box">
-                                                        <h5> 4.89 ETH</h5>
+                                                        <h5> 4.89 ADA</h5>
                                                         <span>= $12.246</span>
                                                     </div>
                                                 </div>

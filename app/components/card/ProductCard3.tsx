@@ -84,7 +84,7 @@ export default function ProductCard3({ data }: Props): JSX.Element {
                     </div>
                     <div className="price">
                         <span>Current Bid</span>
-                        <h5> {data.eth} ETH</h5>
+                        <h5> {data.eth} ADA</h5>
                     </div>
                 </div>
                 {data.status !== "Coming Soon" ? (

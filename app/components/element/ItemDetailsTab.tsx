@@ -42,7 +42,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-3.jpg"
+                                                            src="/assets/images/avatar/avt-3.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />
@@ -65,7 +65,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h5>4.89 ETH</h5>
+                                            <h5>4.89 ADA</h5>
                                             <span>= $12.246</span>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-11.jpg"
+                                                            src="/assets/images/avatar/avt-11.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />
@@ -104,7 +104,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h5>4.89 ETH</h5>
+                                            <h5>4.89 ADA</h5>
                                             <span>= $12.246</span>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-1.jpg"
+                                                            src="/assets/images/avatar/avt-1.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />
@@ -141,7 +141,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h5>4.89 ETH</h5>
+                                            <h5>4.89 ADA</h5>
                                             <span>= $12.246</span>
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-5.jpg"
+                                                            src="/assets/images/avatar/avt-5.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />
@@ -178,7 +178,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h5>4.89 ETH</h5>
+                                            <h5>4.89 ADA</h5>
                                             <span>= $12.246</span>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-7.jpg"
+                                                            src="/assets/images/avatar/avt-7.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />
@@ -215,7 +215,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h5>4.89 ETH</h5>
+                                            <h5>4.89 ADA</h5>
                                             <span>= $12.246</span>
                                         </div>
                                     </div>
@@ -229,7 +229,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-8.jpg"
+                                                            src="/assets/images/avatar/avt-8.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />
@@ -252,7 +252,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h5>4.89 ETH</h5>
+                                            <h5>4.89 ADA</h5>
                                             <span>= $12.246</span>
                                         </div>
                                     </div>
@@ -273,7 +273,7 @@ export default function ItemDetailsTab(): JSX.Element {
                                                         <Image
                                                             height={100}
                                                             width={100}
-                                                            src="/assets/images/avatar/avt-3.jpg"
+                                                            src="/assets/images/avatar/avt-3.webp"
                                                             alt=""
                                                             className="avatar"
                                                         />

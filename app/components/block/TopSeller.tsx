@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import AuthorCard1 from "../card/AuthorCard1";
+import AuthorCard from "../card/AuthorCard";
 import { author } from "@/data/author";
 
 export default function TopSeller(): JSX.Element {
@@ -65,7 +65,7 @@ export default function TopSeller(): JSX.Element {
                                 >
                                     {author.map((item) => (
                                         <SwiperSlide key={item.id}>
-                                            <AuthorCard1 data={item} />
+                                            <AuthorCard data={item} />
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>

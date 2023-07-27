@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Navigation } from "swiper";
 import { product1 } from "@/data/product";
-import ProductCard1 from "../card/ProductCard1";
+import ProductCard1 from "../card/ProductCard";
 import Link from "next/link";
 
 export default function LiveAuction6({

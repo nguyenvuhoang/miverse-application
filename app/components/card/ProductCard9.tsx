@@ -76,7 +76,7 @@ export default function ProductCard9({ data }: any): JSX.Element {
                     </div>
                     <div className="price">
                         <span>Current Bid</span>
-                        <h5> {data.eth} ETH</h5>
+                        <h5> {data.eth} ADA</h5>
                     </div>
                 </div>
                 <div className="card-bottom">

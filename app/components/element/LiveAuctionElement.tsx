@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Navigation } from "swiper";
-import ProductCard1 from "../card/ProductCard1";
+import ProductCard from "../card/ProductCard";
 import { product1 } from "@/data/product";
 
 export default function LiveAuctionElement(): JSX.Element {
@@ -51,7 +51,7 @@ export default function LiveAuctionElement(): JSX.Element {
                 >
                     {product1.slice(0, 7).map((item) => (
                         <SwiperSlide key={item.id}>
-                            <ProductCard1 data={item} />
+                            <ProductCard data={item} />
                         </SwiperSlide>
                     ))}
                     <div className="swiper-pagination mg-t-6" />

@@ -38,7 +38,7 @@ const sale: string[] = [
     "Open for offers",
 ];
 
-const blcokchain: string[] = ["Ethereum", "Flow", "Tezos"];
+const blcokchain: string[] = ["Cardano"];
 
 const sort: string[] = [
     "Recently added",

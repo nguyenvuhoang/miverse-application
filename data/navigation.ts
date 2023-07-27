@@ -20,39 +20,14 @@ export const navigation: NavigationType[] = [
         dropdown: [
             {
                 id: 1,
-                name: "Explore Style 1",
-                path: "/explore-1",
+                name: "Collection stats",
+                path: "/collection/statistics",
             },
             {
                 id: 2,
-                name: "Explore Style 2",
+                name: "All collection",
                 path: "/explore-2",
-            },
-            {
-                id: 3,
-                name: "Explore Style 3",
-                path: "/explore-3",
-            },
-            {
-                id: 4,
-                name: "Explore Style 4",
-                path: "/explore-4",
-            },
-            {
-                id: 5,
-                name: "Live Auctions",
-                path: "/live-auctions",
-            },
-            {
-                id: 6,
-                name: "Item Details",
-                path: "/item-details-1",
-            },
-            {
-                id: 7,
-                name: "Item Details 2",
-                path: "/item-details-2",
-            },
+            }
         ],
     },
     {
@@ -61,40 +36,30 @@ export const navigation: NavigationType[] = [
         dropdown: [
             {
                 id: 1,
-                name: "Activity 1",
-                path: "/activity-1",
-            },
-            {
-                id: 2,
-                name: "Activity 2",
-                path: "/activity-2",
-            },
+                name: "------",
+                path: "/",
+            }
         ],
     },
     {
         id: 4,
-        name: "Community",
-        dropdown: [
-            {
-                id: 1,
-                name: "Blog",
-                path: "/blog",
-            },
-            {
-                id: 2,
-                name: "Blog Details",
-                path: "/blog-details",
-            },
-            {
-                id: 3,
-                name: "Help Center",
-                path: "/help-center",
-            },
-        ],
+        name: "Create"
     },
     
     {
         id: 6,
-        name: "Contact"
+        name: "About",
+        dropdown: [
+            {
+                id: 1,
+                name: "Our team",
+                path: "/our-team",
+            },
+            {
+                id: 2,
+                name: "See FAQ",
+                path: "/see-faq",
+            }
+        ],
     },
 ];

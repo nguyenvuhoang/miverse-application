@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import AuthorCard1 from "../card/AuthorCard1";
+import AuthorCard1 from "../card/AuthorCard";
 import { author } from "@/data/author";
 
 export default function TopSeller4(): JSX.Element {

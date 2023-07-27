@@ -1,34 +1,34 @@
+import Explore4 from "@/app/components/block/Explore4";
+import Breadcrumb from "@/app/components/breadcrumb";
+import LiveAuctionModal from "@/app/components/modal/LiveAuctionModal";
 import { Metadata } from "next";
-import Breadcrumb from "../components/breadcrumb";
-import CreateItem from "../components/block/CreateItem";
-import LiveAuctionModal from "../components/modal/LiveAuctionModal";
 
 const item = {
-    title: "Create Item",
+    title: "Explore 4",
     breadcrumb: [
         {
             name: "Home",
             path: "/",
         },
         {
-            name: "Page",
-            path: "/create-item",
+            name: "Explore",
+            path: "/explore-4",
         },
         {
-            name: "Create Item",
+            name: "Explore 4",
         },
     ],
 };
 
 export const metadata: Metadata = {
-    title: "Miverse | NFT Marketplace | Create Item",
+    title: "Miverse | NFT Marketplace",
 };
 
 export default function page(): JSX.Element {
     return (
         <>
             <Breadcrumb data={item} />
-            <CreateItem />
+            <Explore4 />
 
             {/* live auction product modal */}
             <LiveAuctionModal />

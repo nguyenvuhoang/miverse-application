@@ -3,7 +3,7 @@ import CreateSellNft from "../components/block/CreateSellNft";
 import LiveAuction from "../components/block/LiveAuction";
 import PopularCollection from "../components/block/PopularCollection";
 import TopSeller from "../components/block/TopSeller";
-import Hero1 from "../components/hero/Hero1";
+import Hero from "../components/hero/Hero";
 import LiveAuctionModal from "../components/modal/LiveAuctionModal";
 import TodaysPicks from "../components/block/TodaysPicks";
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function page(): JSX.Element {
     return (
         <>
-            <Hero1 />
+            <Hero />
             <LiveAuction />
             <TopSeller />
             <TodaysPicks style="pad-b-54 no-pt-mb" />
