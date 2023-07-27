@@ -4,7 +4,6 @@ import NftInfo from "@/app/components/block/NftInfo";
 import PopularCollection4 from "@/app/components/block/PopularCollection4";
 import TodaysPicks from "@/app/components/block/TodaysPicks";
 import TopSeller5 from "@/app/components/block/TopSeller5";
-import Hero5 from "@/app/components/hero/Hero5";
 import LiveAuctionModal from "@/app/components/modal/LiveAuctionModal";
 import { Metadata } from "next";
 
@@ -15,7 +14,6 @@ export const metadata: Metadata = {
 export default function page() {
     return (
         <>
-            <Hero5 />
             <BrowByCategory />
             <LiveAuction6 style="home5 style2" />
             <TopSeller5 />
