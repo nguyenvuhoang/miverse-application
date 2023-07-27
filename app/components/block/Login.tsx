@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Login(): JSX.Element {
     return (
         <>
@@ -6,7 +8,7 @@ export default function Login(): JSX.Element {
                     <div className="row">
                         <div className="col-12">
                             <h2 className="tf-title-heading ct style-1">
-                                Login To NFTs
+                                Login To Miverse
                             </h2>
                             <div className="flat-form box-login-social">
                                 <div className="box-title-login">
@@ -52,14 +54,12 @@ export default function Login(): JSX.Element {
                                             required
                                         />
                                         <div className="row-form style-1">
-                                            <label>
-                                                Remember me
-                                                <input type="checkbox" />
-                                                <span className="btn-checkbox" />
-                                            </label>
-                                            <a className="forgot-pass">
+                                            <Link href="/signup" className="forgot-pass">
+                                                Register
+                                            </Link>
+                                            <Link href="/login" className="forgot-pass">
                                                 Forgot Password ?
-                                            </a>
+                                            </Link>
                                         </div>
                                         <button className="submit">
                                             Login

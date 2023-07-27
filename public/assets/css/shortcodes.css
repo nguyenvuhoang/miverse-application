@@ -426,7 +426,9 @@
 .sc-button.style.wallet span::before {
     content: "\e917";
 }
-
+.sc-button.style.profile span::before {
+    content: "\e933";
+}
 .sc-button.style.bag span::before {
     content: "\e901";
     -webkit-transition: all 0.05s ease;

@@ -10,6 +10,7 @@ import Search1 from "./Search1";
 import Search2 from "./Search2";
 import WalletConnectButton from "../button/WalletConnectButton";
 import Image from "next/image";
+import LoginButton from "../button/Login";
 
 export default function Header(): JSX.Element {
   const path = usePathname();
@@ -101,7 +102,10 @@ export default function Header(): JSX.Element {
                     {path !== "/authors-1" &&
                       path !== "/authors-2" &&
                       path !== "/create-item" &&
-                      path !== "/edit-profile" && <WalletConnectButton />}
+                      path !== "/edit-profile" && <WalletConnectButton />
+                    }
+                    
+                    <LoginButton />
 
                     <AdminBar />
                   </div>
