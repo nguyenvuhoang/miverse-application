@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Miverse",
 };
 
-export default function page(): Element {
+export default function page(): JSX.Element {
     return (
         <>
             <Hero />
