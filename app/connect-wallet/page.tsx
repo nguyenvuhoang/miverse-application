@@ -20,7 +20,7 @@ const item = {
 };
 
 export const metadata: Metadata = {
-    title: "Miverse | NFT Marketplace | Connect Wallet",
+    title: "Cardano | NFT Marketplace | Connect Wallet",
 };
 
 export default function page(): JSX.Element {

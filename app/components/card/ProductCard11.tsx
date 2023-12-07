@@ -122,7 +122,7 @@ export default function ProductCard11({ data }: Props): JSX.Element {
                     <h5 className="style2">
                         <Link href="/item-details-1">{data.title}</Link>
                     </h5>
-                    <div className="tags">bsc</div>
+                    <div className="tags"></div>
                 </div>
                 <div className="meta-info">
                     <div className="author">

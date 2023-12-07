@@ -93,7 +93,7 @@ export default function ProductCard15({ data }: Props): JSX.Element {
                             <span className="pricing">{data.eth} ETH</span>
                         </div>
                     </div>
-                    <div className="tags">bsc</div>
+                    <div className="tags"></div>
                 </div>
                 <div className="card-bottom">
                     <a

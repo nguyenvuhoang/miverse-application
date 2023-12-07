@@ -8,7 +8,7 @@ import LiveAuctionModal from "../components/modal/LiveAuctionModal";
 import TodaysPicks from "../components/block/TodaysPicks";
 
 export const metadata: Metadata = {
-    title: "Miverse",
+    title: "Cardano",
 };
 
 export default function page(): JSX.Element {

@@ -114,7 +114,7 @@ export default function ProductCard17({ data }: Props): JSX.Element {
                     </button>
                 </div>
                 <div className="wrap-tag">
-                    <div className="tags">bsc</div>
+                    <div className="tags"></div>
                 </div>
                 <div className="meta-info">
                     <div className="author">

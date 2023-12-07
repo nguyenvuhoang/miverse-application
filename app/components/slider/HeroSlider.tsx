@@ -63,10 +63,10 @@ export default function HeroSlider1(): JSX.Element {
                                                     </span>
                                                 </h1>
                                                 <h1 className="heading">
-                                                    Miverse NFTs
+                                                    Cardano NFTs
                                                 </h1>
                                                 <p className="sub-heading mg-t-29 mg-bt-44">
-                                                    Marketplace for Miverse
+                                                    Marketplace for Cardano
                                                     character collections non
                                                     fungible token NFTs
                                                 </p>
@@ -135,12 +135,12 @@ export default function HeroSlider1(): JSX.Element {
                                             </h2>
                                             <h2 className="heading h3">
                                                 <span className="fill">
-                                                    Miverse{" "}
+                                                    Cardano{" "}
                                                 </span>
                                                 NFTs
                                             </h2>
                                             <p className="sub-heading mt-29 mb-35">
-                                                Marketplace for Miverse
+                                                Marketplace for Cardano
                                                 character collections non
                                                 fungible token NFTs
                                             </p>

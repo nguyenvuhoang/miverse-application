@@ -127,7 +127,7 @@ export default function ProductCard14({ data }: Props): JSX.Element {
                                 <span className="pricing">{data.eth} ETH</span>
                             </div>
                         </div>
-                        <div className="tags">bsc</div>
+                        <div className="tags"></div>
                     </div>
                 </div>
             </div>
