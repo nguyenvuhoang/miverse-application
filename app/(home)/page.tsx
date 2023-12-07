@@ -8,10 +8,10 @@ import LiveAuctionModal from "../components/modal/LiveAuctionModal";
 import TodaysPicks from "../components/block/TodaysPicks";
 
 export const metadata: Metadata = {
-    title: "Axies | NFT Marketplace React/Next Js Template | Home 1",
+    title: "Miverse",
 };
 
-export default function page(): JSX.Element {
+export default function page(): Element {
     return (
         <>
             <Hero />

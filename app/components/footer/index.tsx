@@ -19,7 +19,7 @@ export default function Footer() {
               <div className="widget widget-logo">
                 <div className="logo-footer" id="logo-footer">
                   <Link href="/">
-                    <Image
+                    {/* <Image
                       id="logo_footer"
                       // src="/assets/images/logo/logo_dark.png"
                       src={`/assets/images/logo/${
@@ -29,7 +29,7 @@ export default function Footer() {
                       width={135}
                       height={56}
                       data-retina="assets/images/logo/logo_dark@2x.png"
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <p className="sub-widget-logo">

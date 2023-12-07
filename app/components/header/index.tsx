@@ -51,7 +51,7 @@ export default function Header(): JSX.Element {
                 <div className="wrap-box flex">
                   <div id="site-logo" className="clearfix">
                     <div id="site-logo-inner">
-                      <Link href="/" rel="home" className="main-logo">
+                      {/* <Link href="/" rel="home" className="main-logo">
                         <Image
                           id="logo_header"
                           src={`/assets/images/logo/${
@@ -61,7 +61,7 @@ export default function Header(): JSX.Element {
                           width={133}
                           height={56}
                         />
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                   <div
