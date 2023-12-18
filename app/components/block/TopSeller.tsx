@@ -28,16 +28,7 @@ export default function TopSeller(): JSX.Element {
                                     }}
                                     onSwiper={(swiper) => {
                                         setTimeout(() => {
-                                            (
-                                                swiper.params.navigation as any
-                                            ).prevEl = ".top-seller-prev";
-                                            (
-                                                swiper.params.navigation as any
-                                            ).nextEl = ".top-seller-next";
-
-                                            swiper.navigation.destroy();
-                                            swiper.navigation.init();
-                                            swiper.navigation.update();
+                                            
                                         });
                                     }}
                                     modules={[Navigation]}

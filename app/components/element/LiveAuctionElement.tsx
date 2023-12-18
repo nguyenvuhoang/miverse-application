@@ -22,14 +22,7 @@ export default function LiveAuctionElement(): JSX.Element {
                     }}
                     onSwiper={(swiper) => {
                         setTimeout(() => {
-                            (swiper.params.navigation as any).prevEl =
-                                ".live-auction-right";
-                            (swiper.params.navigation as any).nextEl =
-                                ".live-auction-next";
-
-                            swiper.navigation.destroy();
-                            swiper.navigation.init();
-                            swiper.navigation.update();
+                            
                         });
                     }}
                     modules={[Pagination, Navigation]}
