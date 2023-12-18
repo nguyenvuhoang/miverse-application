@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@meshsdk/core": "^1.5.11-beta.3",
+    "@meshsdk/react": "^1.1.9",
     "@popperjs/core": "^2.11.7",
     "@types/bootstrap": "^5.2.6",
     "@types/node": "20.2.1",
